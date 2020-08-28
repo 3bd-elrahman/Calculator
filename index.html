@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>calculator</title>
+<link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <input type="text" id="screen"  readonly>
+            <div class="row1">
+                <input type="button" value ="(" class="btn" onclick="set_text(this.value)">
+                <input type="button" value =")" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="clear" class="btn" id="clear">
+                <input type="button" value ="CE" class="btn" id="CE">
+
+            </div>
+            <div class="row2">
+                <input type="button" value ="7" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="8" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="9" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="÷" class="btn" onclick="set_text(this.value)" >
+            </div>
+            <div class="row3">
+                <input type="button" value ="4" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="5" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="6" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="X" class="btn" onclick="set_text(this.value)">
+            </div>
+            <div class="row4">
+                <input type="button" value ="1" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="2" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="3" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="-" class="btn" onclick="set_text(this.value)">
+            </div>
+            <div class="row5">
+                <input type="button" value ="0" class="btn" onclick="set_text(this.value)">
+                <input type="button" value ="." id="dot" class="btn ">
+                <input type="button" value ="=" class="btn" id="equal" style="color: white;background-color: blueviolet;">
+
+                <input type="button" value ="+" class="btn" onclick="set_text(this.value)">
+            </div>
+
+            <div class="row6" style="text-align: center; color:crimson">
+              <strong >Abd-Elrahmn</strong>
+            </div>
+
+        </div>
+        <script src="calculator.js">
+
+        </script>
+    </body>
+</html>

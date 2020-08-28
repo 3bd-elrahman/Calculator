@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: linear-gradient(to right,red,yellow) ;
+}
+
+.container{
+    background-color: rgb(247, 248, 248);
+    width:400px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+
+}
+#screen{
+    width:400; 
+    height: 70px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    border:1px solid rgb(10, 10, 10);
+    outline: none;
+
+}
+.row1,.row2,.row3,.row4,.row5,.row6{
+    margin-top: 10px;
+     padding-left: 40px;
+    
+}
+.btn{
+    width:80px;
+    height: 40px;
+    background-color: rgb(175, 175, 175);
+    border:none;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: medium;
+    outline: none;
+
+}
+.btn_num{
+    width:80px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: medium;
+    background-color: rgb(210, 211, 209);
+    outline: none;
+
+
+}
